@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { home, aboutme, resume, services, portfolio, contact, linkedin, twitter, github  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,7 +6,7 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about-me",
+    id: "aboutme",
     title: "About me",
   },
   {
@@ -136,8 +136,8 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: github,
+    link: "https://www.github.com/",
   },
   {
     id: "social-media-3",
