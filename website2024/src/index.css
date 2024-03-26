@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(193, 190, 190, 0.1);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -1027,4 +1027,23 @@ section .container {
 }
 .credits a:hover {
   color: #fff;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram .fa-twitter .fa-linkedin .fa-github{
+  background: #121212;
+  color: white;
 }

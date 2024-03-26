@@ -3,6 +3,8 @@ import {useState} from 'react'
 //import {bg, favicon, me } from '../assets';
 import {navLinks} from '../constants';
 
+import { About } from "../components";
+
 const Navbar = () => {
   return (
     <div className="container">
@@ -24,12 +26,13 @@ const Navbar = () => {
       <i className="bi bi-list mobile-nav-toggle"></i>
     </nav>
     {/* <!-- .navbar --> */}
+    
 
     <div className="social-links">
-      <a href="https://twitter.com/LuisRioja11" className="twitter" target="_blank"><i className="bi bi-twitter"></i></a>
-      <a href="https://es.linkedin.com/in/luis-rioja-c%C3%A1ceres-aa72941b3" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
-      <a href="https://www.instagram.com/luisrioja11/" className="instagram" target="_blank"><i className="bi bi-instagram"></i></a>
-      <a href="https://github.com/Luiser-ttv" className="github" target="_blank"><i className="bi bi-github"></i></a>
+      <a href="https://twitter.com/LuisRioja11" className="twitter" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://es.linkedin.com/in/luis-rioja-c%C3%A1ceres-aa72941b3" className="linkedin" class="fa fa-linkedin" target="_blank"></a>
+      <a href="https://www.instagram.com/luisrioja11/" className="instagram" class="fa fa-instagram" target="_blank"></a>
+      <a href="https://github.com/luisrioja" className="github" class="fa fa-github" target="_blank"></a>
     </div>
 
   </div>

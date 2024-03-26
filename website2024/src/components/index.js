@@ -1,11 +1,11 @@
 import Navbar from './Navbar';
-import Name from './Name';
+import About from './About';
 import SocialMedia from './SocialMedia';
 import Footer from './Footer';
 
 export{
 Navbar,
-Name,
+About,
 SocialMedia,
 Footer,
 };
