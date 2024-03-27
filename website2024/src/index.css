@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li + li {
   margin-left: 30px;
 }
-.navbar a, .navbar a:focus {
+.navbar a, .navbar a:focus, .navbar Link , .navbar Link:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -185,12 +185,12 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i, .navbar a:focus i, .navbar Link i, .navbar Link:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:before {
+.navbar a:before, .navbar Link:before {
   content: "";
   position: absolute;
   width: 0;
@@ -202,11 +202,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before, .navbar Link:hover:before, .navbar li:hover > Link:before {
   visibility: visible;
   width: 25px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a, .navbar Link:hover, .navbar li:hover > Link {
   color: #fff;
 }
 
