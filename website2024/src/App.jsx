@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Element } from "react-scroll";
-import { Navbar, About, Contact, Portfolio, Resume, ServicesOffer } from "./components";
+import { Navbar, About, Contact, Portfolio, Testimonials, Resume, ServicesOffer } from "./components";
 
 const App = () => {
   const [activeSection, setActiveSection] = useState(null);
@@ -27,6 +27,10 @@ const App = () => {
 
       <Element name="portfolio" className="element">
         {activeSection === 'portfolio' && <Portfolio />}
+      </Element>
+
+      <Element name="testimonials" className="element">
+        {activeSection === 'testimonials' && <Testimonials />}
       </Element>
 
       <Element name="contact" className="element">

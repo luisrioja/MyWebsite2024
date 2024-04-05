@@ -47,11 +47,6 @@ const About = () => {
 
       <div style={{ textAlign: 'right', marginTop: '50px', cursor: 'pointer' }}>
         <FaJava size={40} style={{ transition: 'color 1s' }} />
-        <style jsx>{`
-          .fa-java:hover {
-            color: red;
-          }
-        `}</style>
       </div>
     </div>
   );

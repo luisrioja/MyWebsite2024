@@ -35,6 +35,9 @@ const Navbar = ({ setActiveSection }) => {
               <Link className="nav-link cursor-pointer" to="portfolio" smooth={true} duration={500} onClick={() => { setActiveSection('portfolio'); setShowNavbar(false); }}> Portfolio </Link>
             </li>
             <li>
+              <Link className="nav-link cursor-pointer" to="testimonials" smooth={true} duration={500} onClick={() => { setActiveSection('testimonials'); setShowNavbar(false); }}> Testimonials </Link>
+            </li>
+            <li>
               <Link className="nav-link cursor-pointer" to="contact" smooth={true} duration={500} onClick={() => { setActiveSection('contact'); setShowNavbar(false); }}> Contact </Link>
             </li>
           </ul>
